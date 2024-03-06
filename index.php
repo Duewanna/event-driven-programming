@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    <h1>Hello!</h1>
 <body>
     <input type="text" placeholder="Search name here...";>
     <button>Search now!!</button>
