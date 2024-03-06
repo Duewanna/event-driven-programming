@@ -10,4 +10,4 @@ Github Comment
 >git commit -m "Version Control"
 >git push -u origin main
 
->git pull
+>git pull 
