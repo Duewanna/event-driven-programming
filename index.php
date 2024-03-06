@@ -11,7 +11,8 @@
     <button>Search now!!</button>
     <hr>
 
-<?php 
+<?php
+// Updated Version 1.1
 include("./config/database.php");
 echo '<br/>';
 $sql = "SELECT * FROM guest WHERE name LIKE '%'";
