@@ -1,1 +1,13 @@
 Joanna Marie
+
+
+-----------
+Github Comment
+
+>git clone "URL"
+
+>git add .
+>git commit -m "Version Control"
+>git push -u origin main
+
+>git pull
