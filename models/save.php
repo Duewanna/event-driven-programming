@@ -26,13 +26,13 @@ function save($data)
 
     try {
         if ($conn->query($query) === TRUE) {
-            header('location: /registration.php?success');
+            header('location: ../registration.php?success');
             exit(); 
         } 
     
     }catch (Exception $e) {
     
-        header('location: /registration.php?invalid');
+        header('location: ../registration.php?invalid');
         exit();
     }
 }

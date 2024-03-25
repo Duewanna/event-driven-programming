@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Dashboard</a>
+                        <a class="nav-link" href="./">Dashboard</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="registration.php">Registration</a>
@@ -46,19 +46,19 @@
         <p>You can add record for student here.</p>
         <div class="card mt-3">
 
-            <form action="/models/save.php" method="POST">
+            <form action="./models/save.php" method="POST">
                 <div class="card-header">Registration Form</div>
                 <div class="card-body">
                     <?php
                     if (isset($_GET['success'])) {
-                        ?>
+                    ?>
                     <div class="alert alert-success">
                         <b>New Student Added.</b>. Congrats. Thank you!
                     </div>
                     <hr>
                     <?php
                     } elseif (isset($_GET['invalid'])) {
-                        ?>
+                    ?>
                     <div class="alert alert-danger">
                         <b>Existed Application ID</b>. Please try another. Thank you.
                     </div>

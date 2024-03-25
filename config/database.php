@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 
-$database_name = "db_tes";
+$database_name = "db_event_driven_programming";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database_name);
