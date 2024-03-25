@@ -13,9 +13,9 @@
     <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <style>
-        body {
-            background-color: #ecf0f1;
-        }
+    body {
+        background-color: #ecf0f1;
+    }
     </style>
 </head>
 
@@ -28,21 +28,22 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="mynavbar">
+            <div class="collapse navbar-collapse" mynavbar">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="registration.php">Registration</a>
+                        <a class="nav-link" href="/registration.php">Registration</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input onkeyup="search(this.value)" class="form-control me-2" type="text" placeholder="Search guest here...">
+                    <input onkeyup="search(this.value)" class="form-control me-2" type="text"
+                        placeholder="Search guest here...">
                     <button class="btn btn-primary" type="button">Search</button>
                 </form>
             </div>
-        </div>
+        </div>  
     </nav>
 
     <div class="container">
@@ -50,25 +51,26 @@
         <p>You can view all the recorded data in this dashboard.</p>
         <div class="card mt3">
             <div class=" card-header">List of Guest</div>
+            <div class="card-body">
 
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th width="150" style="text-align: center;">Guest ID</th>
-                        <th style=" text-align: left; padding-left: 10px">Complete Name</th>
-                        <th width="50" style="text-align: center;">Action</th>
-                    </tr>
-                </thead>
-                <tbody id="results">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th width="150" style="text-align: center;">Guest ID</th>
+                            <th style=" text-align: left; padding-left: 10px">Complete Name</th>
+                            <th width="50" style="text-align: center;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results">
 
-                </tbody>
+                    </tbody>
 
-            </table>
+                </table>
+            </div>
+            <div class="card-footer">
+                -
+            </div>
         </div>
-        <div class="card-footer">
-            -
-        </div>
-    </div>
     </div>
 
     <div class="modal" id="view-details">
@@ -98,6 +100,7 @@
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
 
 </html>
